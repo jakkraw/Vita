@@ -1,0 +1,16 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule Dermatolog dermatolog.php
+RewriteRule Ginekolog ginekolog.php
+RewriteRule Laboratorium laboratorium.php
+RewriteRule Medycyna_Pracy medycyna_pracy.php
+RewriteRule Badania_Kierowcow badania_kierowcow.php
+RewriteRule Gabinet_USG gabinet_usg.php
+RewriteRule Gabinet_Laryngologiczny gabinet_laryngologiczny.php
+RewriteRule Gabinet_Urologiczny gabinet_urologiczny.php
+RewriteRule Poradnia_Alergologiczna poradnia_alergologiczna.php
