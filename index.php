@@ -48,7 +48,7 @@ function content(){
 	
 	<div class="post">
 		<div id='gmap'></div>
-	</div>	
+	</div>
 <?php 
 }
 showPage();

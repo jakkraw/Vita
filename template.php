@@ -23,19 +23,18 @@ function showPage(){
 		<meta name="google-site-verification" content="VSOw11k2mRFllQky1xiL-P9e8cea2R2OUX4f6C5nSjY" />
 		<meta name="description" content="Centrum medyczne Vita w Bytowie Sikorskiego 57"/>
 		<meta name="keywords" content="<?php echo $keywords; ?>"/>
-		<link rel="stylesheet" href="style.css" type="text/css" />	
+		<link rel="stylesheet" href="style.css" type="text/css" />
 		<link  rel="shortcut icon" href="vita.ico"/>
-		<?php if (function_exists('addedHeader')){ 
-		addedHeader(); } ?>
+		<?php if (function_exists('addedHeader')){ addedHeader(); } ?>
 	</head>
 	<body>
 		<img id="photo" src="vita.jpg"/>
-		<div id="container">	
+		<div id="container">
 			<div id="logo"> 
 				<a href="."> 
 					<h6 id="smallLogo">Niepubliczny Specjalistyczny Zakład Opieki Zdrowotnej </h6>
-					Centrum Medyczne <q style="color:#1B87AB">Vita</q>	
-					<h6 id="smallLogo">Bytów Sikorskiego 57</h6>			
+					Centrum Medyczne <q style="color:#1B87AB">Vita</q>
+					<h6 id="smallLogo">Bytów Sikorskiego 57</h6>
 				</a>
 			</div>
 
@@ -54,7 +53,7 @@ function showPage(){
 			</div>
 		</div>
 	</body>
-</html>	
+</html>
 <?php 
 }
 ?>
