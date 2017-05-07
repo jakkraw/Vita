@@ -1,6 +1,5 @@
-﻿<?php 
+<?php 
 require_once("template.php");
-
 function addedHeader(){
 ?>
 	<script type='text/javascript'>
@@ -10,21 +9,19 @@ function addedHeader(){
 					center:new google.maps.LatLng(54.177991, 17.488272),
 					mapTypeId: google.maps.MapTypeId.ROADMAP,
 					disableDefaultUI: true
-				};	
+				};
 				
 				map = new google.maps.Map(document.getElementById('gmap'), options);
 				marker = new google.maps.Marker({map: map, position: new google.maps.LatLng(54.176167, 17.487654)});
 				infowindow = new google.maps.InfoWindow({content:'<strong>Centrum Medyczne "Vita"</strong><br>Bytów Sikorskiego 57'});
 				google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});
-				
 				infowindow.open(map,marker);
 			}
 	</script>
-	<script async defer src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCa7QRAezj3Qsk0MR1hq1FEzxSNlFLTsKg&callback=initMap'></script>		
-<?php 
+	<script async defer src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCa7QRAezj3Qsk0MR1hq1FEzxSNlFLTsKg&callback=initMap'></script>
+<?php
 }
-	
-function content(){ 
+function content(){
 ?>
 	<div class="post">
 		<b>Telefon Kontaktowy: </b> 59 822 23 39 </br>
@@ -54,5 +51,5 @@ function content(){
 	</div>	
 <?php 
 }
-	showPage();
+showPage();
 ?>
