@@ -4,7 +4,4 @@ http://centrumvita.pl
 
 
 # Technologie
--PHP
--HTML
--JS
--CSS
+PHP, HTML, CSS
